@@ -1,0 +1,344 @@
+/* app css stylesheet */
+.row-fluid
+{
+    margin-left: 0px;
+    margin-bottom: 8px;
+}
+
+header .row-fluid
+{
+    background-color: darkcyan;
+    height: 110px; 
+}
+
+header .row-fluid  h2
+{
+    text-align: center;
+}
+
+.infoBoxBorder
+{
+    border: 1px solid #CCC;
+}
+
+#guidelines
+{
+    background-color: aqua;
+}
+
+#countryInformation
+{
+    background-color: chocolate; 
+}
+
+#caseStudies
+{
+    background-color: brown;
+}
+
+#globalSupportProgramme
+{
+    background-color: blue;
+}
+
+#mainFooter ul 
+{
+    list-style-type: none;
+}
+
+footer .row-fluid
+{
+    background-color: firebrick;
+    height: 40px; 
+}
+
+/*@media (min-width: 1200px) 
+{
+
+    [class*="span"] 
+    {
+        margin-left: 8px;
+    }
+
+    #container 
+    {
+        margin-left: 40px;
+        width: 1196px;
+    }
+
+    .span2 
+    {
+        width: 590px;
+    }
+
+    #guidelines, #countryInformation, #caseStudies, #globalSupportProgramme 
+    {
+        height: 165px;
+    } 
+
+    #guidelines img 
+    {
+        display: block;
+        margin: 20px auto;
+    }
+
+    #globalSupportProgramme img
+    {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .slider1 
+    {
+        width: 100%;
+        height: 338px;
+        background-image: url(../img/slider1.jpg);
+        background-size: cover;
+    }
+
+    .slider2 
+    {
+        width: 100%;
+        height: 338px;
+        background-image: url(../img/slider2.jpg);
+        background-size: cover;
+    }
+
+    .slider3 
+    {
+        width: 100%;
+        height: 338px;
+        background-image: url(../img/slider3.jpg);
+        background-size: cover;
+    }   
+
+    #mainFooter > div
+    {
+        background-color: darkgreen;
+        height: 220px; 
+        margin-top: -16px;
+        overflow: auto;
+    }
+
+    #mainFooter > div li 
+    {
+        margin: 10px 0px 0px 5px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    [class*="span"] 
+    {
+        margin-left: 2px;
+    }
+
+    .row-fluid 
+    {
+        margin-bottom: 2px;
+    }
+
+    .row-fluid
+    {
+        margin-bottom: 4px;
+    }
+
+    #guidelines, #countryInformation, #caseStudies, #globalSupportProgramme 
+    {
+        height: 150px;
+    } 
+
+    #guidelines img 
+    {
+        display: block;
+        margin: 15px auto;
+    }
+
+    #globalSupportProgramme img
+    {
+        display: block;
+        margin: 27px auto;
+        max-width: 90%;
+    }
+
+    .slider1 
+    {
+        width: 100%;
+        height: 303px;
+        background-image: url(../img/slider1.jpg);
+        background-size: cover;
+    }
+
+    .slider2 
+    {
+        width: 100%;
+        height: 303px;
+        background-image: url(../img/slider2.jpg);
+        background-size: cover;
+    }
+
+    .slider3 
+    {
+        width: 100%;
+        height: 303px;
+        background-image: url(../img/slider3.jpg);
+        background-size: cover;
+    } 
+
+    #mainFooter > div
+    {
+        background-color: darkgreen;
+        height: 220px; 
+        margin-top: -20px;
+        overflow: auto;
+    }
+
+    #mainFooter > div li 
+    {
+        margin: 5px 5px 0px -20px;
+    }
+
+
+}
+
+@media (max-width: 767px) 
+{
+    header .row-fluid, footer .row-fluid {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #guidelines, #countryInformation, #caseStudies, #globalSupportProgramme 
+    {
+        height: 150px;
+    } 
+
+    #guidelines img 
+    {
+        display: block;
+        margin: 15px auto;
+    }
+
+    .slider1 
+    {
+        width: 100%;
+        height: 200px;
+        background-image: url(../img/slider1.jpg);
+        background-size: cover;
+    }
+
+    .slider2 
+    {
+        width: 100%;
+        height: 200px;
+        background-image: url(../img/slider2.jpg);
+        background-size: cover;
+    }
+
+    .slider3 
+    {
+        width: 100%;
+        height: 220px;
+        background-image: url(../img/slider3.jpg);
+        background-size: cover;
+    }
+
+    #main1 .span1 .row-fluid:nth-child(1) 
+    {
+        margin-top: -12px;
+    }
+
+    #globalSupportProgramme img
+    {
+        display: block;
+        margin: 15px auto;
+    }
+
+    #mainFooter > div
+    {
+        background-color: darkgreen;
+        margin: 15px auto;
+        overflow: auto;
+    }
+
+    #mainFooter > div li 
+    {
+        margin: 5px 5px 0px -20px;
+    }
+
+    footer .row-fluid 
+    {
+        margin-top: -8px;
+    }
+}*/
+
+    [class*="span"] 
+    {
+        margin-left: 2px;
+    }
+
+    .row-fluid 
+    {
+        margin-bottom: 2px;
+    }
+
+    .row-fluid
+    {
+        margin-bottom: 4px;
+    }
+
+    #guidelines, #countryInformation, #caseStudies, #globalSupportProgramme 
+    {
+        height: 150px;
+    } 
+
+    #guidelines img 
+    {
+        display: block;
+        margin: 15px auto;
+    }
+
+    #globalSupportProgramme img
+    {
+        display: block;
+        margin: 27px auto;
+        max-width: 90%;
+    }
+
+    .slider1 
+    {
+        width: 100%;
+        height: 303px;
+        background-image: url(../img/slider1.jpg);
+        background-size: cover;
+    }
+
+    .slider2 
+    {
+        width: 100%;
+        height: 303px;
+        background-image: url(../img/slider2.jpg);
+        background-size: cover;
+    }
+
+    .slider3 
+    {
+        width: 100%;
+        height: 303px;
+        background-image: url(../img/slider3.jpg);
+        background-size: cover;
+    } 
+
+    #mainFooter > div
+    {
+        background-color: darkgreen;
+        height: 220px; 
+        margin-top: -20px;
+        overflow: auto;
+    }
+
+    #mainFooter > div li 
+    {
+        margin: 5px 5px 0px -20px;
+    }

@@ -1,0 +1,63 @@
+﻿body 
+{
+    font-size: 1em;
+}
+
+h2 
+{
+    font-size: 2.5em;
+}
+#header > div
+{
+    padding: 1%;
+}
+
+#main 
+{
+    height: 340px;
+}
+
+.infoBoxBorder
+{
+    border: 1px solid #CCC;
+    background-color: white ! important;
+}
+
+#globalSupportProgramme img
+{
+    display: block;
+    margin: 20px auto;
+}
+
+#mainFooter ul 
+{
+    list-style-type: none;
+}
+
+#mainFooter > div
+{
+    background-color: darkgreen;
+    height: 220px; 
+    overflow: auto;
+}
+
+#mainFooter > div li 
+{
+    margin: 5px 5px 0px -20px;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) 
+{
+    body 
+    {
+        font-size: 75% !important;
+    }
+}
+
+@media (max-width: 767px) 
+{
+    body 
+    {
+        font-size: 50% !important;
+    }
+}
