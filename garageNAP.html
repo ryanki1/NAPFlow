@@ -4,98 +4,150 @@
     <meta name="viewport" content="device-width=100%; initial-scale=1.0" />
     <title>Garage Grids</title>
     <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/jquery.capty.css" rel="stylesheet" />
     <link href="css/garageApp.css" rel="stylesheet" />
     <style>
-      @media (min-width: 1200px) {
+      @media (min-width: 1200px) 
+      {
         .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container 
         {
           width: 1000px;
           height: 780px;
         }
       }
+      @media (max-width: 1199px) and (min-width: 768px) 
+      {
+        .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container 
+        {
+          height: 720px;
+        }
+      }
+      @media (max-width: 767px) 
+      {
+        body
+        {
+        }
+      }
       .row-fluid 
       {
-        margin-bottom: 10px;
+        margin-bottom: 0.625em;
       }
     </style>
 </head>
 <body>
     <div class="container">
-      <div id="header" class="row-fluid" style="height: 20.5%">
+      <div id="header" class="row-fluid" style="height: 10em"><!--20.5%-->
         <div class="span4 infoBoxBorder" style="height: 100%">
           <input type="text" placeholder="Sir" class="input-mini"/>
           <h2 id="welcome">Welcome to a page of flowing content :-)</h2>
         </div>
       </div>
-      <div id="main" class="row-fluid"  style="height: 42.3%">
+      <div id="main" class="row-fluid"  style="height: 20.625em"> <!--42.3%-->
         <div class="span1" style="height: 100%">
           <div class="row-fluid" style="height: 48.5%">
-            <div class="span4" style="background-color: aqua; border: 1px solid black; height: 100%">
-
+            <div id="guidelines" class="span4 infoBoxBorder" style="height: 100%">
+              <div hint="NAP Interactive Guidelines" style="height: 100%">
+                    <a href="#" style="height: 100%"><img src="img/nap-guidelines.png" style="height: 70%"/></a>
+              </div>
             </div>
           </div>
           <div class="row-fluid"  style="height: 48.5%">
-            <div class="span4"  style="background-color: aqua; border: 1px solid black; height: 100%">
+            <div class="span4"  style="background-color: aqua; height: 100%">
 
             </div>
           </div>
         </div>
-        <div class="span2" style="background-color: aqua; height: 100%">
+        <div id="turntable" class="carousel slide span2 infoBoxBorder" style="height: 100%">
+          <ol class="carousel-indicators">
+                <li data-target="#turntable" data-slide-to="0" class="active"></li>
+                <li data-target="#turntable" data-slide-to="1"></li>
+                <li data-target="#turntable" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" style="height: 100%">
+              <div class="active item" style="height: 100%">
+                  <img class="slider1" src="" />
+                  <div class="carousel-caption">
+                    <h4>The NAP process</h4>
+                    <p>The NAP is a process to facilitate effective adaptation in countries through reducing vulnerability to climate change, and facilitating integration of adaptation into development.</p>
+                  </div>
+              </div>
+              <div class="item"  style="height: 100%">
+                  <img class="slider2" src="" />
+                  <div class="carousel-caption">
+                    <h4>The technical guidelines for the NAP process</h4>
+                    <p>The technical guidelines for the NAP process are designed to support countries in their planning and implementation of adaptation at the national level.</p>
+                  </div>
+              </div>
+              <div class="item"  style="height: 100%">
+                  <img class="slider3" src="" />
+                  <div class="carousel-caption">
+                    <h4>The NAP Central</h4>
+                    <p>The NAP Central is the main information platform on supporting the NAP process.</p>
+                  </div>
+              </div>
+          </div>
+          <a class="carousel-control left" href="#turntable" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#turntable" data-slide="next">&rsaquo;</a>
         </div>
         <div class="span1" style="height: 100%">
            <div class="row-fluid" style="height: 48.5%">
-            <div class="span4" style="background-color: aqua; border: 1px solid black; height: 100%">
+            <div class="span4" style="background-color: aqua; height: 100%">
 
             </div>
           </div>
           <div class="row-fluid"  style="height: 48.5%">
             <div id="globalSupportProgramme" class="span4 infoBoxBorder"  style="height: 100%">
-              <div hint="Global Support Programme">
-                  <a href="#"><img src="img/global-support.png"/></a>
+              <div hint="Global Support Programme" style="height: 100%">
+                  <a href="#" style="height: 100%"><img src="img/global-support.png" style="height: 75%"/></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div id="mainFooter" class="row-fluid">
-        <div id="hazards" class="span1">
+      <div id="mainFooter" class="row-fluid" style="height: 16.875em">
+        <div id="hazards" class="span1" style="height: 100%">
 
+        </div>
+        <div id="sectors" class="span1 infoBoxBorder" style="height: 100%">
+          <div style="height: 100%">
+            <ul style="height: 16.875em">
+                <li style="height: 4.86em">
+                    <div style="height: 4.86em">
+                        <img src="img/sectorFood.jpg" alt="Agriculture & Food Security" style="width: 14.12em; height: 4.86em"/>
+                    </div>
+                </li>
+                <li style="height: 4.86em">
+                    <div style="height: 4.86em">
+                        <img src="img/sectorWater.jpg" alt="Water Resources" style="width: 14.12em; height: 4.86em"/>
+                    </div>
+                </li>
+                <li style="height: 4.86em">
+                    <div style="height: 4.86em">
+                        <img src="img/sectorCoastal.jpg" alt="Coastal Zones"style="width: 14.12em; height: 4.86em"/>
+                    </div>
+                </li>
+                <li style="height: 4.86em">
+                    <div style="height: 4.86em">
+                        <img src="img/sectorHealth.jpg" alt="Health Options" style="width: 14.12em; height: 4.86em"/>
+                    </div>
+                </li>
+            </ul>
           </div>
-          <div id="sectors" class="span1 infoBoxBorder">
-             <div>
-                <ul>
-                    <li>
-                        <div>
-                            <img src="img/sectorFood.jpg" alt="Agriculture & Food Security" />
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="img/sectorWater.jpg" alt="Water Resources" />
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="img/sectorCoastal.jpg" alt="Coastal Zones" />
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="img/sectorHealth.jpg" alt="Health Options" />
-                        </div>
-                    </li>
-                </ul>
-            </div>
-          </div>
-          <div id="dmt" class="span1"></div>
-          <div id="portals" class="span1"></div>
+        </div>
+        <div id="dmt" class="span1" style="height: 100%"></div>
+        <div id="portals" class="span1" style="height: 100%"></div>
       </div>
-      <div class="row-fluid">
-        <div class="span4"  style="background-color: darkgrey; height: 20px">
+      <div id="footer" class="row-fluid" style="height: 2.5em">
+        <div class="span4"  style="background-color: darkgrey; height: 100%" >
         </div>
       </div>
     </div>
     <script src="lib/jquery-2.0.2.min.js" type="text/javascript"></script>
     <script src="lib/bootstrap.js" type="text/javascript"></script>
+    <script src="lib/jquery.capty.min.js" type="text/javascript"></script>
+    <script src="js/nap.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      unfccc.nap.Initialize();
+    </script>
 </body>
 </html>
